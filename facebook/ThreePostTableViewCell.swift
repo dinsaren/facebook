@@ -10,6 +10,8 @@ import UIKit
 
 class ThreePostTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var imagePost: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

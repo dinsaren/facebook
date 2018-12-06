@@ -14,6 +14,14 @@
 		744D4CA021B6583F008F3D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744D4C9E21B6583F008F3D05 /* LaunchScreen.storyboard */; };
 		744D4CAB21B6583F008F3D05 /* facebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744D4CAA21B6583F008F3D05 /* facebookTests.swift */; };
 		744D4CB621B6583F008F3D05 /* facebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744D4CB521B6583F008F3D05 /* facebookUITests.swift */; };
+		744D4CC521B658AF008F3D05 /* FirstPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744D4CC321B658AF008F3D05 /* FirstPostTableViewCell.swift */; };
+		744D4CC621B658AF008F3D05 /* FirstPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744D4CC421B658AF008F3D05 /* FirstPostTableViewCell.xib */; };
+		744D4CC921B67454008F3D05 /* ScondePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744D4CC721B67454008F3D05 /* ScondePostTableViewCell.swift */; };
+		744D4CCA21B67454008F3D05 /* ScondePostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744D4CC821B67454008F3D05 /* ScondePostTableViewCell.xib */; };
+		744D4CD121B67B9E008F3D05 /* FourPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744D4CCF21B67B9E008F3D05 /* FourPostTableViewCell.swift */; };
+		744D4CD221B67B9E008F3D05 /* FourPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744D4CD021B67B9E008F3D05 /* FourPostTableViewCell.xib */; };
+		744D4CD521B67BB9008F3D05 /* ThreePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744D4CD321B67BB9008F3D05 /* ThreePostTableViewCell.swift */; };
+		744D4CD621B67BB9008F3D05 /* ThreePostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744D4CD421B67BB9008F3D05 /* ThreePostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		744D4CB121B6583F008F3D05 /* facebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		744D4CB521B6583F008F3D05 /* facebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookUITests.swift; sourceTree = "<group>"; };
 		744D4CB721B6583F008F3D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744D4CC321B658AF008F3D05 /* FirstPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPostTableViewCell.swift; sourceTree = "<group>"; };
+		744D4CC421B658AF008F3D05 /* FirstPostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstPostTableViewCell.xib; sourceTree = "<group>"; };
+		744D4CC721B67454008F3D05 /* ScondePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScondePostTableViewCell.swift; sourceTree = "<group>"; };
+		744D4CC821B67454008F3D05 /* ScondePostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScondePostTableViewCell.xib; sourceTree = "<group>"; };
+		744D4CCF21B67B9E008F3D05 /* FourPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourPostTableViewCell.swift; sourceTree = "<group>"; };
+		744D4CD021B67B9E008F3D05 /* FourPostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourPostTableViewCell.xib; sourceTree = "<group>"; };
+		744D4CD321B67BB9008F3D05 /* ThreePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePostTableViewCell.swift; sourceTree = "<group>"; };
+		744D4CD421B67BB9008F3D05 /* ThreePostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreePostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 				744D4C9C21B6583F008F3D05 /* Assets.xcassets */,
 				744D4C9E21B6583F008F3D05 /* LaunchScreen.storyboard */,
 				744D4CA121B6583F008F3D05 /* Info.plist */,
+				744D4CC321B658AF008F3D05 /* FirstPostTableViewCell.swift */,
+				744D4CC421B658AF008F3D05 /* FirstPostTableViewCell.xib */,
+				744D4CC721B67454008F3D05 /* ScondePostTableViewCell.swift */,
+				744D4CC821B67454008F3D05 /* ScondePostTableViewCell.xib */,
+				744D4CD321B67BB9008F3D05 /* ThreePostTableViewCell.swift */,
+				744D4CD421B67BB9008F3D05 /* ThreePostTableViewCell.xib */,
+				744D4CCF21B67B9E008F3D05 /* FourPostTableViewCell.swift */,
+				744D4CD021B67B9E008F3D05 /* FourPostTableViewCell.xib */,
 			);
 			path = facebook;
 			sourceTree = "<group>";
@@ -229,9 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744D4CC621B658AF008F3D05 /* FirstPostTableViewCell.xib in Resources */,
 				744D4CA021B6583F008F3D05 /* LaunchScreen.storyboard in Resources */,
+				744D4CD621B67BB9008F3D05 /* ThreePostTableViewCell.xib in Resources */,
 				744D4C9D21B6583F008F3D05 /* Assets.xcassets in Resources */,
+				744D4CD221B67B9E008F3D05 /* FourPostTableViewCell.xib in Resources */,
 				744D4C9B21B6583C008F3D05 /* Main.storyboard in Resources */,
+				744D4CCA21B67454008F3D05 /* ScondePostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				744D4C9821B6583C008F3D05 /* ViewController.swift in Sources */,
+				744D4CD121B67B9E008F3D05 /* FourPostTableViewCell.swift in Sources */,
+				744D4CC921B67454008F3D05 /* ScondePostTableViewCell.swift in Sources */,
 				744D4C9621B6583C008F3D05 /* AppDelegate.swift in Sources */,
+				744D4CD521B67BB9008F3D05 /* ThreePostTableViewCell.swift in Sources */,
+				744D4CC521B658AF008F3D05 /* FirstPostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

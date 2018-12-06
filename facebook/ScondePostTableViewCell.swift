@@ -10,6 +10,7 @@ import UIKit
 
 class ScondePostTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var descriptionTextField: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
